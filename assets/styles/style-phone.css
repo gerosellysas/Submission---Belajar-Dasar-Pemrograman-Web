@@ -1,0 +1,118 @@
+@media screen and (max-width: 513px) {
+    .mb-25 {
+        margin: 0;
+    }
+
+    #navbar {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        background-color: black;
+
+    }
+
+    #navbar .logo {
+        margin: 5%;
+    }
+
+    #nav-list {
+        display: none;
+        width: 100%;
+        vertical-align: center;
+        background-color: black;
+        padding: 0 5% 5% 5%;
+        margin-top: 15.5em;
+    }
+
+    #navbar .icon {
+        display: flex;
+    }
+
+    #navbar .mobile-nav {
+        position: absolute;
+        width: 100%;
+        text-align: left;
+    }
+
+    #navbar .mobile-nav a {
+        display: block;
+    }
+
+    #slide-text {
+        margin-top: 7.5em;
+        padding: 0 2.5em;
+    }
+
+    #slide-text h1 {
+        font-size: 1.875em;
+    }
+
+    #slide-text span {
+        font-size: 1.5em;
+    }
+
+    #content {
+        width: 90%;
+    }
+
+    #opening-title h2 {
+        font-size: 1.875em;
+    }
+
+    #opening-title span {
+        font-size: 1.125em;
+    }
+
+    main {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container-flex-row {
+        flex-direction: column;
+        margin: 1.5em auto;
+    }
+
+    #about-us .background-image {
+        height: 50em;
+    }
+
+    #about-us .about-us-display {
+        width: 90%;
+        flex-direction: column;
+        padding: 2em;
+    }
+
+    #about-us article {
+        padding: 0;
+        margin-bottom: 1.25em;
+    }
+
+    #about-us button h3 {
+        font-size: 1.125em;
+    }
+
+    #about-us .image-holder {
+        height: 20em;
+    }
+
+    #about-us-image {
+        height: 20em;
+    }
+
+    #menu-list {
+        width: 90%;
+        margin: 0 auto 3em auto;
+    }
+
+    .menu-row {
+        width: 90%;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .menu-column {
+        margin-bottom: 2.5em;
+    }
+}

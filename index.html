@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Submission Belajar Dasar Pemrograman Web</title>
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <link rel="stylesheet" href="assets/styles/style-phone.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <header>
+        <div id="slide-text">
+            <span id="slide-text-subheading">Mie Ayam Ora Patek Enak</span>
+            <h1 id="slide-text-heading">Konsisten menjaga rasa, sejak 1995</h1>
+        </div>
+        <nav id="navbar" onclick="changeActive();">
+            <a href="#slide-image" class="nav-item"><img src="assets/images/logo.png" class="logo"></a>
+            <ul id="nav-list">
+                <li><a href="#slide-image" class="nav-item active">Beranda</a></li>
+                <li><a href="#about-us" class="nav-item">Tentang Kami</a></li>
+                <li><a href="#menu-list" class="nav-item">Daftar Menu</a></li>
+                <li><a href="#contact" class="nav-item">Kontak</a></li>
+            </ul>
+            <a href="javascript:void(0);" class="icon">
+                <img src="assets/images/menu_icon.png" onclick="showNavbar();">
+            </a>
+        </nav>
+        <img src="assets/images/slide-1.jpg" id="slide-image" class="background-image">
+    </header>
+    <main>
+        <div id="content" class="card">
+            <div id="opening-title" class="mb-25">
+                <h2>Mie Ayam No. 1 di Wakanda</h2>
+                <span>Nikmat Rasanya, Mantap Porsinya, Sehat Mienya, Asli Ayamnya !!!</span>
+            </div>
+            <div id="opening-content" class="container-flex-row mb-25">
+                <section class="container-flex-column">
+                    <img src="assets/images/higienis-icon.png">
+                    <h4>Higienis</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor
+                        incididunt ut labore et dolore magna aliqua. Morbi tristique senectus et netus et malesuada
+                        fames.
+                    </p>
+                </section>
+                <section class="container-flex-column">
+                    <img src="assets/images/lezat-icon.png">
+                    <h4>Lezat</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor
+                        incididunt ut labore et dolore magna aliqua. Morbi tristique senectus et netus et malesuada
+                        fames.
+                    </p>
+                </section>
+                <section class="container-flex-column">
+                    <img src="assets/images/halal-icon.png">
+                    <h4>Halal</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor
+                        incididunt ut labore et dolore magna aliqua. Morbi tristique senectus et netus et malesuada
+                        fames.
+                    </p>
+                </section>
+                <section class="container-flex-column">
+                    <img src="assets/images/kekinian-icon.png">
+                    <h4>Kekinian</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor
+                        incididunt ut labore et dolore magna aliqua. Morbi tristique senectus et netus et malesuada
+                        fames.
+                    </p>
+                </section>
+            </div>
+            <div id="about-us" class="mb-75">
+                <div class="about-us-display">
+                    <div class="about-us-row">
+                        <article>
+                            <h3>Tentang Kami</h3>
+                            <p>Mus mauris vitae ultricies leo integer malesuada nunc. Sed tempus urna et pharetra
+                                pharetra
+                                massa
+                                massa ultricies mi. Ultricies mi eget mauris pharetra et ultrices neque. Praesent
+                                tristique
+                                magna sit amet purus. Ac odio tempor orci dapibus ultrices. Tortor dignissim convallis
+                                aenean et
+                                tortor. Pellentesque nec nam aliquam sem et tortor. In ornare quam viverra orci sagittis
+                                eu
+                                volutpat.
+                                Porta lorem mollis aliquam ut porttitor leo a diam sollicitudin. Nunc faucibus a
+                                pellentesque
+                                sit .....
+                            </p>
+                            <button>Lihat Selengkapnya &#8594</button>
+                        </article>
+                    </div>
+                    <div class="about-us-row">
+                        <div class="image-holder">
+                            <img src="assets/images/warung-1995.jpg" onmouseover="onHover();" onmouseout="onUnhover();"
+                                id="about-us-image">
+                        </div>
+                    </div>
+                </div>
+                <img src="assets/images/about-us-bg.jpg" class="background-image" id="about-us-bg">
+            </div>
+            <div id="menu-list">
+                <h3>Daftar Menu</h3>
+                <div class="container-flex-row menu-row">
+                    <section class="container-flex-column menu-column">
+                        <div class="image-holder">
+                            <img src="assets/images/mie-ayam.jpg" class="menu-image">
+                        </div>
+                        <div class="title-holder">
+                            <h4>Mie Ayam Original</h4>
+                            <h5>Rp 10.000,00</h5>
+                        </div>
+                        <div class="button-holder">
+                            <button class="button-min">-</button>
+                            <div class="order-display-holder">
+                                <p class="order-display">0</p>
+                            </div>
+                            <button class="button-plus">+</button>
+                        </div>
+                        <p class="content-text">Vitae congue mauris rhoncus aenean. Habitant morbi tristique senectus et
+                            netus et malesuada. Orci nulla pellentesque
+                            dignissim enim sit amet.
+                        </p>
+                    </section>
+                    <section class="container-flex-column menu-column">
+                        <div class="image-holder">
+                            <img src="assets/images/mie-ayam-ceker.jpg" class="menu-image">
+                        </div>
+                        <div class="title-holder">
+                            <h4>Mie Ayam Ceker</h4>
+                            <h5>Rp 13.000,00</h5>
+                        </div>
+                        <div class="button-holder">
+                            <button class="button-min">-</button>
+                            <div class="order-display-holder">
+                                <p class="order-display">0</p>
+                            </div>
+                            <button class="button-plus">+</button>
+                        </div>
+                        <p class="content-text">Vitae congue mauris rhoncus aenean. Habitant morbi tristique senectus et
+                            netus et malesuada. Orci nulla pellentesque
+                            dignissim enim sit amet.
+                        </p>
+                    </section>
+                    <section class="container-flex-column menu-column">
+                        <div class="image-holder">
+                            <img src="assets/images/mie-ayam-bakso-urat.jpg" class="menu-image">
+                        </div>
+                        <div class="title-holder">
+                            <h4>Mie Ayam Bakso Urat</h4>
+                            <h5>Rp 17.000,00</h5>
+                        </div>
+                        <div class="button-holder">
+                            <button class="button-min">-</button>
+                            <div class="order-display-holder">
+                                <p class="order-display">0</p>
+                            </div>
+                            <button class="button-plus">+</button>
+                        </div>
+                        <p class="content-text">Vitae congue mauris rhoncus aenean. Habitant morbi tristique senectus et
+                            netus et malesuada. Orci nulla pellentesque
+                            dignissim enim sit amet.
+                        </p>
+                    </section>
+                </div>
+                <div class="container-flex-row menu-row">
+                    <section class="container-flex-column menu-column">
+                        <div class="image-holder">
+                            <img src="assets/images/mie-ayam-bakso-cincang.jpg" class="menu-image">
+                        </div>
+                        <div class="title-holder">
+                            <h4>Mie Ayam Bakso Cincang</h4>
+                            <h5>Rp 17.000,00</h5>
+                        </div>
+                        <div class="button-holder">
+                            <button class="button-min">-</button>
+                            <div class="order-display-holder">
+                                <p class="order-display">0</p>
+                            </div>
+                            <button class="button-plus">+</button>
+                        </div>
+                        <p class="content-text">Vitae congue mauris rhoncus aenean. Habitant morbi tristique senectus et
+                            netus et malesuada. Orci nulla pellentesque
+                            dignissim enim sit amet.
+                        </p>
+                    </section>
+                    <section class="container-flex-column menu-column">
+                        <div class="image-holder">
+                            <img src="assets/images/mie-ayam-bakso-telur.jpg" class="menu-image">
+                        </div>
+                        <div class="title-holder">
+                            <h4>Mie Ayam Bakso Telur</h4>
+                            <h5>Rp 20.000,00</h5>
+                        </div>
+                        <div class="button-holder">
+                            <button class="button-min">-</button>
+                            <div class="order-display-holder">
+                                <p class="order-display">0</p>
+                            </div>
+                            <button class="button-plus">+</button>
+                        </div>
+                        <p class="content-text">Vitae congue mauris rhoncus aenean. Habitant morbi tristique senectus et
+                            netus et malesuada. Orci nulla pellentesque
+                            dignissim enim sit amet.
+                        </p>
+                    </section>
+                    <section class="container-flex-column menu-column">
+                        <div class="image-holder">
+                            <img src="assets/images/mie-ayam-bakso-siomay.jpg" class="menu-image">
+                        </div>
+                        <div class="title-holder">
+                            <h4>Mie Ayam Bakso Siomay</h4>
+                            <h5>Rp 20.000,00</h5>
+                        </div>
+                        <div class="button-holder">
+                            <button class="button-min">-</button>
+                            <div class="order-display-holder">
+                                <p class="order-display">0</p>
+                            </div>
+                            <button class="button-plus">+</button>
+                        </div>
+                        <p class="content-text">Vitae congue mauris rhoncus aenean. Habitant morbi tristique senectus et
+                            netus et malesuada. Orci nulla pellentesque
+                            dignissim enim sit amet.
+                        </p>
+                    </section>
+                </div>
+            </div>
+        </div>
+        <aside>
+            <section id="jam-operasional" class="card">
+                <div class="container">
+                    <div class="image-holder">
+                        <img src="assets/images/ribbon-jam.png">
+                    </div>
+                    <h4>MIE AYAM ORA PATEK ENAK</h4>
+                    <p>buka SETIAP HARI dari pukul</p>
+                    <h4>08.00 WIB - 21.00 WIB</h4>
+                </div>
+            </section>
+            <section id="promo" class="card">
+                <div class="container">
+                    <div class="image-holder">
+                        <img src="assets/images/ribbon-promo.png">
+                    </div>
+                    <div class="promo-display">
+                        <img src="assets/images/promo-1.jpg">
+                        <img src="assets/images/promo-2.jpg">
+                        <img src="assets/images/promo-3.jpg">
+                        <button>Lihat Promo Lainnya</button>
+                    </div>
+                </div>
+            </section>
+            <section id="contact" class="card">
+                <div class="container">
+                    <div class="image-holder">
+                        <img src="assets/images/ribbon-kontak.png">
+                    </div>
+                    <img src="assets/images/my-photo.jpg" class="contact-photo">
+                    <table>
+                        <tr>
+                            <th>Nama</th>
+                            <td>: Geroselly Suryo Adi Sumanto</td>
+                        </tr>
+                        <tr>
+                            <th>TTL</th>
+                            <td>: Surakarta, 29 Mei 1992</td>
+                        </tr>
+                        <tr>
+                            <th rowspan="3">Alamat</th>
+                            <td>: Bibis Wetan RT 03, RW 20,</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;&nbsp;Kel. Gilingan, Kec. Banjarsari,</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;&nbsp;Surakarta, 57134</td>
+                        </tr>
+                        <tr>
+                            <th>Email</th>
+                            <td>: gherow.soe.bedjho@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <th>Telepon</th>
+                            <td>: 085314656165</td>
+                        </tr>
+                    </table>
+                </div>
+            </section>
+        </aside>
+    </main>
+    <footer>
+        <span>Submission Belajar Dasar Pemrograman Web &#169; 2022, Geroselly Suryo Adi Sumanto</span>
+    </footer>
+    <script src="assets/javascripts/dom.js"></script>
+</body>
+
+</html>
